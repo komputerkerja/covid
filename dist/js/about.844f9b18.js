@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["about"],{f820:function(e,n,t){"use strict";t.r(n);var a=t("7a23"),o={class:"about"},c=Object(a["e"])("h1",null,"This is an about page",-1),u=Object(a["e"])("p",null,"Thanks to mathdroid / covid 19 api",-1),b=Object(a["e"])("p",null,"framework Vue JS",-1),i=[c,u,b];function r(e,n){return Object(a["p"])(),Object(a["d"])("div",o,i)}var s=t("6b0d"),d=t.n(s);const p={},l=d()(p,[["render",r]]);n["default"]=l}}]);
+//# sourceMappingURL=about.844f9b18.js.map
