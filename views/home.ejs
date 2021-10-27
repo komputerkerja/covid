@@ -1,14 +1,42 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-    <h1>Home</h1>
+<%- include('layouts/header') %> 
+<%- include('layouts/nav') %> 
 
-</body>
-</html>
+<div class="container">
+
+    <div id="headerNews" class="card mb-3 mt-3">
+        <img src="https://source.unsplash.com/1200x400?mobile" class="card-img-top" alt="picture">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+    </div> 
+
+    <div id="childNews" class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <img src="https://source.unsplash.com/500x400?mobile" class="card-img-top" alt="picture">
+                <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+    </div>          
+          
+</div>
+
+<div id="modal-detail" class="container modal-detail modal-hidden">
+    <div class="modal-x">x</div>
+    <div class="card mb-3 mt-3">
+        <img src="https://source.unsplash.com/1200x400?mobile" class="card-img-top" alt="picture">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis nulla, in cum iste repellat obcaecati sunt deserunt qui et, enim architecto error repudiandae ipsa, quisquam id corrupti dignissimos. Quis tempora aliquid delectus, incidunt molestiae itaque laborum ullam. Quos deleniti consectetur mollitia optio officiis. Obcaecati nulla dolore in labore rerum perferendis praesentium. Officia nobis sit consequuntur, eius maiores sed doloribus qui commodi soluta officiis esse distinctio at quidem itaque unde! A neque numquam itaque mollitia aspernatur facere iure fugit, incidunt quaerat possimus cum harum inventore dolore eveniet magni dicta consequatur repudiandae rem. Quos cum culpa incidunt cumque voluptas nostrum delectus fuga distinctio odit at quae perspiciatis, perferendis voluptate numquam, non possimus sunt maxime eveniet necessitatibus, a autem ab deleniti aut. Ducimus doloribus ea provident inventore harum distinctio aspernatur. Et, officiis beatae amet voluptatem eius perferendis cum nemo qui rerum officia vitae animi dolorem consequuntur fugiat eaque? Suscipit dicta quo harum enim est officiis cupiditate. Officia sapiente maiores maxime impedit soluta, dignissimos asperiores molestias? Placeat mollitia praesentium cum molestias eveniet, quia, accusantium, consectetur aut ut possimus velit odit quae voluptates libero aspernatur totam illo. Repellendus est ipsam, esse veritatis et, quo cupiditate amet nam quia sequi dignissimos voluptate voluptas maiores perferendis quibusdam? This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+    </div> 
+</div>
+
+<%- include('layouts/footer') %> 
