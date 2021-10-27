@@ -49,3 +49,7 @@
 .modal-hidden{
     transform: translateX(150vw)
 }
+
+.test{
+    display: none;
+}
